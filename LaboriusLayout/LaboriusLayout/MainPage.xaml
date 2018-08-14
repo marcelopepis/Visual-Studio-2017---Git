@@ -1,0 +1,90 @@
+﻿<Page
+    x:Class="LaboriusLayout.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LaboriusLayout"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Width="500" HorizontalAlignment="Left" Margin="20,0,0,0">
+        <Grid Margin="0,0,0,20">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock FontSize="24">
+                Title 1
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" Grid.Row="1" Grid.Column="1">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit suscipit velit habitant metus, inceptos platea ligula odio aenean facilisis suspendisse tristique fames. 
+                Senectus ultricies dignissim dictum feugiat augue hendrerit habitasse nibh nisl tortor conubia, scelerisque commodo taciti ullamcorper diam imperdiet nisi libero euismod magnis ridiculus, etiam sagittis curabitur parturient suspendisse nascetur ac quisque arcu ornare. 
+            </TextBlock>
+            <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1">
+                <Rectangle Fill="Green" Width="100" Height="30"/>
+                <Rectangle Fill="Black" Width="100" Height="30"/>
+                <Rectangle Fill="Red" Width="100" Height="30"/>
+            </StackPanel>
+        </Grid>
+        <Grid Margin="0,0,0,20">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock FontSize="24">
+                Title 2
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" Grid.Row="1" Grid.Column="1">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit suscipit velit habitant metus, inceptos platea ligula odio aenean facilisis suspendisse tristique fames. 
+                Senectus ultricies dignissim dictum feugiat augue hendrerit habitasse nibh nisl tortor conubia, scelerisque commodo taciti ullamcorper diam imperdiet nisi libero euismod magnis ridiculus, etiam sagittis curabitur parturient suspendisse nascetur ac quisque arcu ornare.
+            </TextBlock>
+            <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1">
+                <Rectangle Fill="Green" Width="100" Height="30"/>
+                <Rectangle Fill="Black" Width="100" Height="30"/>
+                <Rectangle Fill="Red" Width="100" Height="30"/>
+            </StackPanel>
+        </Grid>
+        <Grid Margin="0,0,0,20">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock FontSize="24">
+                Title 3
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" Grid.Row="1" Grid.Column="1">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit suscipit velit habitant metus, inceptos platea ligula odio aenean facilisis suspendisse tristique fames. 
+                Senectus ultricies dignissim dictum feugiat augue hendrerit habitasse nibh nisl tortor conubia, scelerisque commodo taciti ullamcorper diam imperdiet nisi libero euismod magnis ridiculus, etiam sagittis curabitur parturient suspendisse nascetur ac quisque arcu ornare.
+            </TextBlock>
+            <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1">
+                <Rectangle Fill="Blue" Width="100" Height="30"/>
+                <Rectangle Fill="Black" Width="100" Height="30"/>
+                <Rectangle Fill="Yellow" Width="100" Height="30"/>
+            </StackPanel>
+        </Grid>
+
+    </StackPanel>
+    
+</Page>
