@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="LegendaryLayout.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LegendaryLayout"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Margin="10,20,0,0">
+        <TextBlock Text="Lorem Ipsum" FontSize="48" Margin="0,0,0,20"/>
+        
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Width="250" TextWrapping="Wrap" Margin="0,0,20,0">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit, aliquam augue inceptos volutpat malesuada mi pretium arcu, consequat ante eu ultrices convallis aptent.
+                Potenti sed molestie ligula lobortis penatibus viverra, libero dis taciti consequat a cras, natoque et fusce conubia bibendum
+            </TextBlock>
+
+            <TextBlock Width="500" TextWrapping="Wrap" Margin="0,0,20,0">
+                Accumsan velit aliquet montes facilisi etiam dapibus pretium, phasellus magna sollicitudin interdum mauris quis donec molestie, eu libero primis vel ac duis.
+                Vivamus vitae nulla ullamcorper etiam accumsan risus, gravida orci scelerisque tincidunt morbi laoreet justo, himenaeos torquent molestie natoque nam. 
+                Senectus integer dignissim sapien proin montes parturient aliquam urna, cubilia aenean porttitor nullam est tempus nunc non, fusce potenti erat eros rhoncus nam libero. 
+                Quam nibh velit fringilla pulvinar felis, ut vestibulum sociosqu bibendum posuere, vehicula augue viverra aliquam.
+            </TextBlock>
+
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Fill="blue" Width="200" Height="200" VerticalAlignment="Top"/>
+                <StackPanel>
+                    <Rectangle Fill="Red" Width="100" Height="100"/>
+                    <Rectangle Fill="Yellow" Width="100" Height="100" />
+                </StackPanel>
+            </StackPanel>            
+        </StackPanel>
+    </StackPanel>
+</Page>
