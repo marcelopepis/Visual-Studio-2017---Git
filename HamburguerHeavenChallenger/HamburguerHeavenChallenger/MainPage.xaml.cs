@@ -26,6 +26,10 @@ namespace HamburguerHeavenChallenger
         {
             this.InitializeComponent();
             MyFrame.Navigate(typeof(Financial));
+            SetTitle("Finalcial");
+            FinancialListBoxItem.IsSelected = true;
+            GoBack.Visibility = Visibility.Collapsed;
+
         }
 
         private void HamburguerButton_Click(object sender, RoutedEventArgs e)
@@ -35,14 +39,17 @@ namespace HamburguerHeavenChallenger
 
         private void IconsListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            ListBoxItem lbi = ((sender as ListBox).SelectedItem as ListBoxItem);
-            if(lbi == FinancialListBoxItem)
+            if(FinancialListBoxItem.IsSelected)
             {
+                GoBack.Visibility = Visibility.Collapsed;
                 MyFrame.Navigate(typeof(Financial));
+                SetTitle("Financial");
             }
-            else if(lbi == FoodListBoxItem)
+            else if(FoodListBoxItem.IsSelected)
             {
+                GoBack.Visibility = Visibility.Visible;
                 MyFrame.Navigate(typeof(Food));
+                SetTitle("Food");
             }
         }
 
@@ -51,7 +58,13 @@ namespace HamburguerHeavenChallenger
             if(MyFrame.CanGoBack)
             {
                 MyFrame.GoBack();
+                FinancialListBoxItem.IsSelected = true;
             }
+        }
+
+        private void SetTitle(String title)
+        {
+            TitleTextBox.Text = title;
         }
     }
 }

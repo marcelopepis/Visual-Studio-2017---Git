@@ -25,6 +25,7 @@ namespace HamburguerHeavenChallenger
         public Food()
         {
             this.InitializeComponent();
+            
         }
     }
 }
