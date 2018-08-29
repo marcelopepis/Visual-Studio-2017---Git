@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="GoNutsChallenge.CompletePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GoNutsChallenge"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#FFFFFF">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Image Source="Assets/color-logo.png" Grid.Row="0" Grid.Column="0" Width="150"/>
+        <Image Source="Assets/ticket.jpg"
+               Grid.Row="1"
+               Width="300"
+               Grid.Column="1"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"/>
+        <StackPanel Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Order:" 
+                       Foreground="White"
+                       FontSize="36"
+                       HorizontalAlignment="Center"
+                       Style="{StaticResource BaseTextBlockStyle}"/>
+            <TextBlock Text="96" 
+                       Foreground="White"
+                       FontSize="64"
+                       VerticalAlignment="Center"
+                       Margin="10,10,0,0"
+                       Style="{StaticResource BaseTextBlockStyle}"/>
+        </StackPanel>
+    </Grid>
+</Page>
