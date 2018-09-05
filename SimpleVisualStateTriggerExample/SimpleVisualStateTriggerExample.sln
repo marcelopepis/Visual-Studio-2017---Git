@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleVisualStateTriggerExample", "SimpleVisualStateTriggerExample\SimpleVisualStateTriggerExample.csproj", "{622075A1-21A8-421B-8E58-9EFB501E19FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{622075A1-21A8-421B-8E58-9EFB501E19FA}.Debug|ARM.ActiveCfg = Debug|ARM
+		{622075A1-21A8-421B-8E58-9EFB501E19FA}.Debug|ARM.Build.0 = Debug|ARM
+		{622075A1-21A8-421B-8E58-9EFB501E19FA}.Debug|ARM.Deploy.0 = Debug|ARM
+		{622075A1-21A8-421B-8E58-9EFB501E19FA}.Debug|x64.ActiveCfg = Debug|x64
+		{622075A1-21A8-421B-8E58-9EFB501E19FA}.Debug|x64.Build.0 = Debug|x64
+		{622075A1-21A8-421B-8E58-9EFB501E19FA}.Debug|x64.Deploy.0 = Debug|x64
+		{622075A1-21A8-421B-8E58-9EFB501E19FA}.Debug|x86.ActiveCfg = Debug|x86
+		{622075A1-21A8-421B-8E58-9EFB501E19FA}.Debug|x86.Build.0 = Debug|x86
+		{622075A1-21A8-421B-8E58-9EFB501E19FA}.Debug|x86.Deploy.0 = Debug|x86
+		{622075A1-21A8-421B-8E58-9EFB501E19FA}.Release|ARM.ActiveCfg = Release|ARM
+		{622075A1-21A8-421B-8E58-9EFB501E19FA}.Release|ARM.Build.0 = Release|ARM
+		{622075A1-21A8-421B-8E58-9EFB501E19FA}.Release|ARM.Deploy.0 = Release|ARM
+		{622075A1-21A8-421B-8E58-9EFB501E19FA}.Release|x64.ActiveCfg = Release|x64
+		{622075A1-21A8-421B-8E58-9EFB501E19FA}.Release|x64.Build.0 = Release|x64
+		{622075A1-21A8-421B-8E58-9EFB501E19FA}.Release|x64.Deploy.0 = Release|x64
+		{622075A1-21A8-421B-8E58-9EFB501E19FA}.Release|x86.ActiveCfg = Release|x86
+		{622075A1-21A8-421B-8E58-9EFB501E19FA}.Release|x86.Build.0 = Release|x86
+		{622075A1-21A8-421B-8E58-9EFB501E19FA}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BE26DD1-DC7E-4599-BEDC-97B65462FF81}
+	EndGlobalSection
+EndGlobal
